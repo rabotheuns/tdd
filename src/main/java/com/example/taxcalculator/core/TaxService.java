@@ -8,8 +8,6 @@ import java.math.BigDecimal;
 public class TaxService {
 
     public TaxResult calculateTax(BigDecimal annualIncome) {
-        BigDecimal taxRate = new BigDecimal("0.20");
-        BigDecimal annualTaxAmount = annualIncome.multiply(taxRate);
-        return new TaxResult(annualTaxAmount);
+        return null;
     }
 }
