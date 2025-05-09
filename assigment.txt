@@ -1,0 +1,15 @@
+Create a 2025 Dutch tax calculator. Use TDD for every step.
+
+Requirements:
+- Implement a tax calculator that caculates the income tax based on this page:
+        1. No AOW
+        2. With AOW
+        3. When your turn AOW this year.
+
+   use this page as a source: https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/prive/inkomstenbelasting/heffingskortingen_boxen_tarieven/boxen_en_tarieven/box_1/box_1
+
+- Implement the calculation for the "Arbeidskorting".
+    use this page as a source: https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/prive/inkomstenbelasting/heffingskortingen_boxen_tarieven/heffingskortingen/arbeidskorting/
+
+
+PRO TIP: https://www.berekenhet.nl/werk-en-inkomen/bruto-netto-inkomen.html use this page to calibrate your calculations.
