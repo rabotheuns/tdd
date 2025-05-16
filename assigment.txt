@@ -1,14 +1,22 @@
 Create a 2025 Dutch tax calculator. Use TDD for every step.
 
 Requirements:
-- Implement a tax calculator that calculates the income tax based on this page:
+1. Implement a tax calculator that calculates the income tax based on this page:
         1. Have not reached AOW age
         2. Already have reached AOW age
         3. When you reach AOW age this year.
 
    use this page as a source: https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/prive/inkomstenbelasting/heffingskortingen_boxen_tarieven/boxen_en_tarieven/box_1/box_1
 
-- Implement the calculation for the "Arbeidskorting".
+Always first write your test so think about the next step in the algorithm and select a test case for that.
+
+First testcases:
+If you earn 0 euros, you pay 0 euros tax.
+If you earh 1000 euros, you pay 358 euros tax.
+
+PRO TIP: https://www.berekenhet.nl/werk-en-inkomen/bruto-netto-inkomen.html#calctop use this page to calibrate your calculations.
+
+2. Implement the calculation for the "Arbeidskorting".
     use this page as a source: https://www.belastingdienst.nl/wps/wcm/connect/bldcontentnl/belastingdienst/prive/inkomstenbelasting/heffingskortingen_boxen_tarieven/heffingskortingen/arbeidskorting/
 
-PRO TIP: https://www.berekenhet.nl/werk-en-inkomen/bruto-netto-inkomen.html use this page to calibrate your calculations.
+PRO TIP: https://www.berekenhet.nl/werk-en-inkomen/bruto-netto-inkomen.html#calctop use this page to calibrate your calculations.
